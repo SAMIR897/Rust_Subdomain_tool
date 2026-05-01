@@ -1,4 +1,8 @@
 # Rust_Subdomain_tool
-Rust-based subdomain enumeration tool
-
-<img src="Rust Subdomain Tool.png" align="right" width="400" height="400">
+<div align="right">
+  <img src="Rust Subdomain Tool.png" width="200" height="200" style="border-radius: 15px;">
+  <br>
+  <p align="center" style="margin-right: 20px;">
+    <sub><em>Rust Subdomain Tool</em></sub>
+  </p>
+</div>
