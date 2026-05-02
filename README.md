@@ -1,6 +1,7 @@
 # Rust_Subdomain_tool
 
 <img align="right" src="Rust Subdomain Tool.png" width="200" alt="Rust Subdomain Tool logo" style="border-radius: 15px; margin-left: 20px; margin-bottom: 20px;">
+<p align="right">Rust Subdomain Tool</p>
 
 **Rust Subdomain Tool** is an advanced, high-performance utility designed for security researchers and developers. By leveraging the speed and safety of the Rust programming language, this tool provides a robust solution for discovering subdomains across complex infrastructures. 
 
