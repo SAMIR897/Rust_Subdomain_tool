@@ -1,0 +1,37 @@
+[package]
+name = "rst"
+version = "0.1.0"
+edition = "2021"
+description = "Rust Subdomain Tool — fast, async subdomain enumeration"
+authors = ["SAMIR897"]
+license = "MIT"
+
+[[bin]]
+name = "rst"
+path = "src/main.rs"
+
+[dependencies]
+# CLI
+clap = { version = "4", features = ["derive"] }
+
+# Async runtime
+tokio = { version = "1", features = ["full"] }
+
+# HTTP client
+reqwest = { version = "0.12", default-features = false, features = ["json", "rustls-tls"] }
+
+# Serialization
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+# Terminal UI
+crossterm = "0.28"
+rand = "0.8"
+
+# Async utilities
+futures = "0.3"
+
+[profile.release]
+opt-level = 3
+lto = true
+strip = true
